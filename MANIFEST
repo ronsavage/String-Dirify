@@ -9,3 +9,4 @@ t/general.t
 t/import.t
 t/pod.t
 t/separator.t
+META.yml
