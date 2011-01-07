@@ -1,5 +1,9 @@
 Revision history for Perl extension String::Dirify.
 
+1.02  Fri Jan  7 10:41:00 2011
+	- Add explicit copyright text in Source/Dirify.pm for Debian packaging.
+	- Add newline at end of t/pod.t.
+
 1.01  Wed Feb 10 13:53:05 2010
 	- Add META.yml. Update MANIFEST.SKIP. Add MANIFEST and MYMETA.yml.
 

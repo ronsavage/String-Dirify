@@ -24,7 +24,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # ------------------------------------------------
 
@@ -274,5 +274,9 @@ Then, Mark Stosberg cut down the original code to provide just the English/ISO/A
 Lastly, the code was cleaned up, tests added, and all packaged, by Ron Savage I<E<lt>ron@savage.net.auE<gt>> in 2009.
 
 Home page: http://savage.net.au/index.html
+
+Copyright (c) 2009, Mark Stosberg, Ron Savage.
+
+Copyright (c) 2010, 2011, Ron Savage.
 
 =cut
