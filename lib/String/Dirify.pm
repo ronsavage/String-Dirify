@@ -187,7 +187,7 @@ __END__
 
 =head1 NAME
 
-C<String::Dirify> - Convert a string into a directory name
+String::Dirify - Convert a string into a directory name
 
 =head1 Synopsis
 
