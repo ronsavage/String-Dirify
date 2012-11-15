@@ -1,6 +1,6 @@
 Revision history for Perl extension String::Dirify.
 
-1.03  Tue Feb 15 15:05:00 201
+1.03  Tue Feb 15 15:05:00 2011
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
 
