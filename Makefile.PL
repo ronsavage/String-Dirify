@@ -21,7 +21,7 @@ WriteMakefile
  },
  DISTNAME  => 'String-Dirify',
  NAME      => 'String::Dirify',
-	LICENSE   => 'perl_5',
+	LICENSE   => 'artistic_2',
  PL_FILES  => {},
  PREREQ_PM =>
  {
