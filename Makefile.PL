@@ -25,8 +25,8 @@ WriteMakefile
  PL_FILES  => {},
  PREREQ_PM =>
  {
-	 Test::More => 0,
-	 Test::Pod  => 0,
+	 Test::Simple=> 0,
+	 Test::Pod  => 1.45,
 	},
 	VERSION_FROM => 'lib/String/Dirify.pm',
 );
