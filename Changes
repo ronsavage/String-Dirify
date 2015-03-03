@@ -1,5 +1,8 @@
 Revision history for Perl extension String::Dirify.
 
+9.99  Sat Feb 21 11:23:00 2015
+	- Rename CHANGES to Changes as per CPAN::Spec::Changes
+
 1.03  Unreleased
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
