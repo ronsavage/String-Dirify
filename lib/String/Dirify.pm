@@ -24,7 +24,7 @@ our @EXPORT = qw(
 
 );
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 # ------------------------------------------------
 
@@ -251,13 +251,13 @@ See http://openmelody.org for details.
 
 =head1 Backwards Compatibility with Movable Type
 
-Unfortunately, Movable Type's usage of dirify() allows a fake separator - '1' - to be used for the
-second parameter in the call to dirify().
+Unfortunately, the way Movable Type uses dirify() allows a fake separator - '1' - to be used for
+the second parameter in the call to dirify().
 
 The '1' triggered usage of '_' as the separator, rather than the '1' provided.
 
-This 'feature' has been preserved in C<String::Dirify>, but is discouraged. Instead, simply drop the
-second parameter and let the code default to '_'.
+This 'feature' has been preserved in C<String::Dirify>, but is discouraged. Instead, simply drop
+the second parameter and let the code default to '_'.
 
 =head1 Distributions
 
@@ -265,15 +265,22 @@ This module is available as a Unix-style distro (*.tgz).
 
 See http://savage.net.au/Perl-modules.html for details.
 
+=head1 REPOSITORY
+
+L<https://github.com/ronsavage/String-Dirify>
+
 =head1 Authors
 
-C<String::Dirify> started out as part of Movable Type's code.
+C<String::Dirify> started out as part of the Movable Type code.
 
 Then, Mark Stosberg cut down the original code to provide just the English/ISO/ASCII features.
 
-Lastly, the code was cleaned up, tests added, and all packaged, by Ron Savage I<E<lt>ron@savage.net.auE<gt>> in 2009.
+Lastly, the code was cleaned up, tests added, and all packaged, by
+Ron Savage I<E<lt>ron@savage.net.auE<gt>> in 2009.
 
-Home page: http://savage.net.au/index.html
+Homepage: http://savage.net.au/index.html
+
+=head1 Copyright
 
 Copyright (c) 2009, Mark Stosberg, Ron Savage.
 

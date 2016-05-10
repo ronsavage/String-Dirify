@@ -1,11 +1,16 @@
 Revision history for Perl extension String::Dirify.
 
-9.99  Sat Feb 21 11:23:00 2015
+1.03  2016-05-11T09:21:00
 	- Rename CHANGES to Changes as per CPAN::Spec::Changes
-
-1.03  Unreleased
 	- Replace /usr/bin/perl with /usr/bin/env perl.
 	- Replace common::sense with use strict and use warnings, to get uninit var warnings.
+	- Adopt new repo structure. For details, see
+		http://savage.net.au/Ron/html/My.Workflow.for.Building.Distros.html.
+		This includes switching from the Artistic V 1.0 licence to the Perl licence.
+		And this in turn satisfies a request from Emmanuel Seyman who is right now packaging this
+		distro for Fedora.
+	- Reformat POD so lines are no more than 100 chars wide. This is my (Ron's) personal policy.
+	- Move t/pod.t to xt/author/.
 
 1.02  Fri Jan  7 10:41:00 2011
 	- Add explicit copyright text in Source/Dirify.pm for Debian packaging.
