@@ -245,10 +245,6 @@ For more details about this character, see the discussion of the dirify() method
 
 =back
 
-=head1 Melody 'v' Movable Type
-
-See http://openmelody.org for details.
-
 =head1 Backwards Compatibility with Movable Type
 
 Unfortunately, the way Movable Type uses dirify() allows a fake separator - '1' - to be used for
